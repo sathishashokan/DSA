@@ -28,7 +28,7 @@ def phone_pad_count(p, up):
         count += phone_pad_count(p+s, up[1:])
     return count
 
-s = "12"
+s = "2"
 phone_pad("", s)
 print(phone_pad_list("", s))
 print(phone_pad_count("", s))
